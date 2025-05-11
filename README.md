@@ -1,5 +1,6 @@
 # FastAutoAudioStrip-Name
-Created using Colab - Automatic audio splitting &amp; automatic file name assignment (ultra-fast version) A tool that detects silence from WAV files bounced in ProTools, splits them into lines, and automatically names files.  Created to improve the efficiency of game audio production and prevent mistakes.
+Created using Colab - Automatic audio splitting &amp; automatic file name assignment (ultra-fast version) A tool that detects silence from WAV files bounced in ProTools, splits them into lines, and automatically names files.  Created to improve the efficiency of game audio production and prevent mistakes.  
+This tool is useful when you insert a certain amount of silence between lines in the Protools region arrangement. By using this tool, you can automatically split a bounce file after adjusting the volume and applying Plug-In into lines, automatically assign file names according to an Excel list, and write the files to WAV files. It is currently in the specification stage, but in the Google Colab execution environment, processing is completed in about 1 second per file.  
 ［Eng] JP follows after Eng
 Created using Colab - Automatic audio splitting & automatic file name assignment (ultra-fast version) 
 1. Detect silence in WAV files  
@@ -34,6 +35,8 @@ Colab を使用して作成・自動音声分割＆ファイル名自動割当�
 
 ProToolsなどでBounce済のWAVファイルから、無音検出し、セリフごとに分割、自動でファイル名をつけるツール  
 ゲーム音響制作現場の効率化かつミスを防ぐために作成  
+Protoolsのリージョン配置で、セリフ間に一定の無音部分を挿入している場合に有効です。このツールを使用することによって、ボリューム調整やPlugIn適用後の1本のバウンスファイルをセリフごとに自動で分割し、エクセルリストに従ってファイルネームを自動付与し、WAVファイルに書き出すことができます。現在仕様段階ですが、Google Colabの実行環境では、1ファイル1秒程度の速度で処理完了します。
+
 【設定可能事項】  
 # ===== 設定 =====  
 input_audio_path = "/content/drive/MyDrive/Colab Notebooks/sample_voice.wav"       # 入力WAVファイル（完全パス）  
