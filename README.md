@@ -2,13 +2,13 @@
 Created using Colab - Automatic audio splitting &amp; automatic file name assignment (ultra-fast version) A tool that detects silence from WAV files bounced in ProTools, splits them into lines, and automatically names files.  Created to improve the efficiency of game audio production and prevent mistakes.
 ［Eng] JP follows after Eng
 Created using Colab - Automatic audio splitting & automatic file name assignment (ultra-fast version) 
-1. Detect silence in WAV files 
-2. Remove silence and split audio 
-3. File name assignment from xlsx, automatic assignment and file saving 
+1. Detect silence in WAV files  
+2. Remove silence and split audio  
+3. File name assignment from xlsx, automatic assignment and file saving  
 
-A tool that detects silence from WAV files bounced in ProTools, splits them into lines, and automatically names files.
+A tool that detects silence from WAV files bounced in ProTools, splits them into lines, and automatically names files.  
 
-Created to improve the efficiency of game audio production and prevent mistakes.
+Created to improve the efficiency of game audio production and prevent mistakes.  
 
 [Settings]
 # ===== Settings =====
@@ -27,14 +27,14 @@ filename_column_index = 1 # Column to get filename from (column A = 0, column B 
 filename_start_row = 4 # Start row to get filename from (row 1 = 0, row 2 = 1, ...)
 
 ［JP]
-Colab を使用して作成・自動音声分割＆ファイル名自動割当「超高速版」
-１．WAVファイル内の無音検出
-２．無音を削除して音声を分割
-３．Xlsxからファイル名付与し自動保割当＆ファイル保存
+Colab を使用して作成・自動音声分割＆ファイル名自動割当「超高速版」  
+１．WAVファイル内の無音検出  
+２．無音を削除して音声を分割  
+３．Xlsxからファイル名付与し自動保割当＆ファイル保存  
 
-ProToolsなどでBounce済のWAVファイルから、無音検出し、セリフごとに分割、自動でファイル名をつけるツール
-ゲーム音響制作現場の効率化かつミスを防ぐために作成
-【設定可能事項】
+ProToolsなどでBounce済のWAVファイルから、無音検出し、セリフごとに分割、自動でファイル名をつけるツール  
+ゲーム音響制作現場の効率化かつミスを防ぐために作成  
+【設定可能事項】  
 # ===== 設定 =====
 input_audio_path = "/content/drive/MyDrive/Colab Notebooks/sample_voice.wav"       # 入力WAVファイル（完全パス）
 excel_path = "/content/drive/MyDrive/Colab Notebooks/sample_list.xlsx"             # Excelファイル（完全パス）
