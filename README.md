@@ -1,10 +1,10 @@
 # FastAutoAudioStrip-Name
 Created using Colab - Automatic audio splitting &amp; automatic file name assignment (ultra-fast version) A tool that detects silence from WAV files bounced in ProTools, splits them into lines, and automatically names files.  Created to improve the efficiency of game audio production and prevent mistakes.
 ［Eng] JP follows after Eng
-Created using Colab - Automatic audio splitting & automatic file name assignment (ultra-fast version)
-1. Detect silence in WAV files
-2. Remove silence and split audio
-3. File name assignment from xlsx, automatic assignment and file saving
+Created using Colab - Automatic audio splitting & automatic file name assignment (ultra-fast version) /n
+1. Detect silence in WAV files /n
+2. Remove silence and split audio /n
+3. File name assignment from xlsx, automatic assignment and file saving /n
 
 A tool that detects silence from WAV files bounced in ProTools, splits them into lines, and automatically names files.
 
